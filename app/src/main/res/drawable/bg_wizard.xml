@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="640dp"
+    android:viewportWidth="360"
+    android:viewportHeight="640">
+
+    <!-- Background rectangle (simulate gradient with dark base) -->
+    <path
+        android:pathData="M0,0 H360 V640 H0 Z"
+        android:fillColor="#203A43"/>
+
+    <!-- Stars (simple triangles) -->
+    <path android:pathData="M50,100 L55,115 L45,115 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M120,200 L123,215 L117,215 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M250,150 L253,165 L247,165 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M180,400 L183,415 L177,415 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M300,500 L303,515 L297,515 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M80,350 L83,365 L77,365 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M220,80 L223,95 L217,95 Z" android:fillColor="#FFFFFF"/>
+
+</vector>
+

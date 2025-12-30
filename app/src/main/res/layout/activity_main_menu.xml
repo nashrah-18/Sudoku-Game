@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skybg2">
+
+    <ImageView
+        android:id="@+id/wizardHatImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/wizardhat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Sudoku Wizard!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#8A2BE2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        app:layout_constraintTop_toBottomOf="@+id/wizardHatImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/btnChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Challenge Yourself!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingVertical="16dp"
+            android:background="@drawable/btn_magic_gradient"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/ic_levels"
+            android:drawablePadding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔮 Get it Solved!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingVertical="16dp"
+            android:background="@drawable/btn_magic_gradient"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/ic_solver"
+            android:drawablePadding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnScoreboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Check Your Magic!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingVertical="16dp"
+            android:background="@drawable/btn_magic_gradient"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/ic_scoreboard"
+            android:drawablePadding="12dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/broomImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/magicwand"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Become a Sudoku Master!"
+        android:textSize="14sp"
+        android:textColor="#E6E6FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Sudoku Wizard</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">✨ Sudoku Wizard ✨</string>
+    <string name="splash_loading">Preparing magic spells...</string>
+
+    <!-- Main Menu -->
+    <string name="main_menu_title">Sudoku Wizard</string>
+    <string name="main_menu_subtitle">Master the magic of numbers!</string>
+    <string name="btn_challenge">✨ Challenge Yourself!</string>
+    <string name="btn_solver">🔮 Get it Solved!</string>
+    <string name="btn_scoreboard">📊 Check Your Magic!</string>
+    <string name="footer_text">Become a Sudoku Master!</string>
+
+    <!-- Level Selection -->
+    <string name="level_selection_title">Select Your Challenge</string>
+    <string name="current_level">Current Level: %1$d</string>
+    <string name="level_button">Level %1$d</string>
+    <string name="level_locked">Locked</string>
+
+    <!-- Game Activity -->
+    <string name="level_title">Level %1$d - %2$s</string>
+    <string name="timer_format">%02d:%02d</string>
+    <string name="hints_label">Hints</string>
+    <string name="btn_hint">Hint</string>
+    <string name="btn_check">Check</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_undo">Undo</string>
+    <string name="btn_back">← Back</string>
+
+    <!-- Solver Activity -->
+    <string name="solver_title">🧙‍♂️ Magic Solver</string>
+    <string name="solver_hint">Enter your Sudoku puzzle and let the magic happen!</string>
+    <string name="btn_solve">✨ Solve</string>
+    <string name="btn_clear">🧼 Clear</string>
+    <string name="feature_validation">✅ Smart Validation</string>
+    <string name="feature_fast">⚡ Fast Solving</string>
+    <string name="feature_step">🎯 Step-by-step</string>
+
+    <!-- Scoreboard Activity -->
+    <string name="scoreboard_title">🏆 Wizard\'s Scoreboard</string>
+    <string name="total_score_label">Total Magic Score</string>
+    <string name="potions_label">Potions</string>
+    <string name="unlocked_label">Unlocked</string>
+    <string name="completed_label">Completed</string>
+    <string name="avg_time_label">Avg Time</string>
+    <string name="best_times_title">🏆 Best Times</string>
+    <string name="level_time_format">Level %1$d: %2$s</string>
+    <string name="level_not_completed">Not completed</string>
+    <string name="btn_reset_progress">🗑️ Reset All Progress</string>
+    <string name="scoreboard_footer">Keep casting those number spells!</string>
+
+    <!-- Dialogs -->
+    <string name="congratulations">🎉 Congratulations!</string>
+    <string name="success_message">You solved Level %1$d in %2$s!\n\nYou earned 1 potion! 🧪</string>
+    <string name="next_level">Next Level</string>
+    <string name="back_to_levels">Back to Levels</string>
+    <string name="try_again">😔 Try Again!</string>
+    <string name="failure_message">Your solution has some errors.\nTake another look or use a hint!</string>
+    <string name="retry">Retry</string>
+    <string name="time_up">⏰ Time\'s Up!</string>
+    <string name="time_up_message">You ran out of time on Level %d.</string>
+
+    <!-- Toasts & Messages -->
+    <string name="toast_complete_all">Complete all cells first!</string>
+    <string name="toast_no_potions">No potions left! Complete levels to earn more.</string>
+    <string name="toast_no_empty_cells">No empty cells to give hint!</string>
+    <string name="toast_enter_numbers">Please enter numbers 1-9 only</string>
+    <string name="toast_invalid_input">Invalid number at row %d, col %d</string>
+    <string name="toast_no_puzzle">Please add a Sudoku puzzle first! 📝</string>
+    <string name="toast_invalid_board">Invalid Sudoku input! Check for duplicates.</string>
+    <string name="toast_solved">Puzzle solved successfully! ✨</string>
+    <string name="toast_no_solution">No solution exists 😢</string>
+    <string name="toast_reset_success">Progress reset successfully!</string>
+    <string name="toast_all_levels_completed">You\'ve completed all levels!</string>
+
+    <!-- Reset Dialog -->
+    <string name="reset_title">Reset All Progress</string>
+    <string name="reset_message">Are you sure you want to reset all your progress? This cannot be undone!</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Difficulty Levels -->
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_intermediate">Intermediate</string>
+    <string name="difficulty_advanced">Advanced</string>
+    <string name="difficulty_expert">Expert</string>
+
+    <!-- Statistics -->
+    <string name="stats_unlocked">Levels Unlocked: %1$d/10</string>
+    <string name="stats_completed">Levels Completed: %1$d/10</string>
+    <string name="stats_total_score">Total Score: %1$d</string>
+
+    <!-- Accessibility Labels -->
+    <string name="desc_wizard_hat">Wizard Hat</string>
+    <string name="desc_magic_wand">Magic Wand</string>
+    <string name="desc_broom">Flying Broom</string>
+    <string name="desc_trophy">Golden Trophy</string>
+    <string name="desc_potion">Magic Potion</string>
+    <string name="desc_star">Gold Star</string>
+    <string name="desc_cell">Sudoku Cell</string>
+    <string name="desc_grid">Sudoku Grid</string>
+</resources>

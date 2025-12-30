@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skybg2">
+
+    <ImageView
+        android:id="@+id/wizardHat"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:src="@drawable/cat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✨ Sudoku Wizard ✨"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#E7C4FF"
+        android:layout_below="@id/wizardHat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:shadowColor="#251039"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5" />
+
+    <ImageView
+        android:id="@+id/stars"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_stars"
+        android:alpha="0.3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading magic..."
+        android:textSize="14sp"
+        android:textColor="#E6E6FA"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+</RelativeLayout>
