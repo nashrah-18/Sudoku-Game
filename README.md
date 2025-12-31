@@ -1,38 +1,95 @@
-# Sudoku Wizard
-Welcome nerd!
-- Game for every sudoku enthusiast! (Also a great project idea if you want to test your data structures and algorithm knowledge..)
-- Uses backtracking algorithm
+# 🧩 Sudoku Wizard
 
-# Screenshots of the game:
+Welcome, nerd! 👋
+**Sudoku Wizard** is a fun and challenging Sudoku game built for puzzle lovers and programmers alike.
 
-SPLASH SCREEN:
+> 🎯 A great project if you want to strengthen your **data structures**, **algorithms**, and **backtracking** concepts.
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.28%20AM(1).jpeg?raw=true)
+---
 
-HOME: CHOOSE YOUR PATH
+## ✨ Features
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.28%20AM(2).jpeg?raw=true)
+* Classic **Sudoku gameplay**
+* Multiple **difficulty levels**
+* **Backtracking algorithm** for solving puzzles
+* ⏱️ **Timer-based challenge** (time decreases as levels increase)
+* 🧪 **Hints (Potions)** earned by clearing levels
+* 🧠 **Auto-solver** for user-input Sudoku boards
+* 🏆 **Scoreboard** to track your progress
 
-LEVELS: PLAY THE GAME
+---
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM(1).jpeg?raw=true)
+## 📸 Screenshots
 
-SOLVE THE GAME BEFORE TIME ENDS: (The timer reduces solving time as the level increases)
+### 🚀 Splash Screen
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM(2).jpeg?raw=true)
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.28%20AM(1).jpeg?raw=true" width="300"/>
 
-HINTS (POTIONS): Only increases once you clear a level
+---
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM.jpeg?raw=true)
+### 🏠 Home – Choose Your Path
 
-GET YOUR QUESTION SOLVED: (Add your question in grid boxes and get it solved!)
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.28%20AM(2).jpeg?raw=true" width="300"/>
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.30%20AM.jpeg?raw=true)
+---
 
-SCOREBOARD: KNOW WHERE YOU STAND!
+### 🎮 Levels – Play the Game
 
-![image alt](https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.30%20AM(1).jpeg?raw=true)
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM(1).jpeg?raw=true" width="300"/>
 
-# Deploy/Install:
+---
 
-Install the application from the releases to check it's working or play the game!
+### ⏳ Solve Before Time Ends
+
+*The timer reduces as the difficulty level increases.* <img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM(2).jpeg?raw=true" width="300"/>
+
+---
+
+### 🧪 Hints (Potions)
+
+*Hints increase only after clearing a level.* <img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM.jpeg?raw=true" width="300"/>
+
+---
+
+### 🧠 Solve Your Own Sudoku
+
+*Enter your own puzzle and let the solver do the magic!* <img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.30%20AM.jpeg?raw=true" width="300"/>
+
+---
+
+### 🏆 Scoreboard – Know Where You Stand
+
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.30%20AM(1).jpeg?raw=true" width="300"/>
+
+---
+
+## 🛠️ Tech Stack
+
+* Language: *Kotlin*
+* Algorithm: **Backtracking**
+* UI: *Xml*
+
+---
+
+## 📦 Installation / Deployment
+
+1. Go to the **Releases** section of this repository
+2. Download the latest version
+3. Install and start playing 🎉
+
+---
+
+## 💡 Project Purpose
+
+This project is ideal for:
+
+* Learning **backtracking algorithms**
+* Practicing **problem-solving**
+* Understanding **game logic & UI flow**
+* Strengthening **DSA fundamentals**
+
+---
+
+## ⭐ Support
+
+If you like this project, don’t forget to **star ⭐ the repository**!
