@@ -1,25 +1,24 @@
-# 🧩 Sudoku Wizard
+# Sudoku Wizard
 
-Welcome, nerd! 👋
+Welcome, nerd!
 **Sudoku Wizard** is a fun and challenging Sudoku game built for puzzle lovers and programmers alike.
-
-> 🎯 A great project if you want to strengthen your **data structures**, **algorithms**, and **backtracking** concepts.
+- A great project if you want to strengthen your **data structures**, **algorithms**, and **backtracking** concepts.
 
 ---
 
-## ✨ Features
+## Features
 
 * Classic **Sudoku gameplay**
 * Multiple **difficulty levels**
 * **Backtracking algorithm** for solving puzzles
-* ⏱️ **Timer-based challenge** (time decreases as levels increase)
-* 🧪 **Hints (Potions)** earned by clearing levels
-* 🧠 **Auto-solver** for user-input Sudoku boards
-* 🏆 **Scoreboard** to track your progress
+* **Timer-based challenge** (time decreases as levels increase)
+* **Hints (Potions)** earned by clearing levels
+* **Auto-solver** for user-input Sudoku boards
+* **Scoreboard** to track your progress
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots of the output
 
 ### 🚀 Splash Screen
 
@@ -41,19 +40,25 @@ Welcome, nerd! 👋
 
 ### ⏳ Solve Before Time Ends
 
-*The timer reduces as the difficulty level increases.* <img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM(2).jpeg?raw=true" width="300"/>
+*The timer reduces as the difficulty level increases.*
+
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM(2).jpeg?raw=true" width="300"/>
 
 ---
 
 ### 🧪 Hints (Potions)
 
-*Hints increase only after clearing a level.* <img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM.jpeg?raw=true" width="300"/>
+*Hints increase only after clearing a level.*
+
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.29%20AM.jpeg?raw=true" width="300"/>
 
 ---
 
 ### 🧠 Solve Your Own Sudoku
 
-*Enter your own puzzle and let the solver do the magic!* <img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.30%20AM.jpeg?raw=true" width="300"/>
+*Enter your own puzzle and let the solver do the magic!*
+
+<img src="https://github.com/nashrah-18/Sudoku-Game/blob/main/WhatsApp%20Image%202025-12-31%20at%203.26.30%20AM.jpeg?raw=true" width="300"/>
 
 ---
 
@@ -63,7 +68,7 @@ Welcome, nerd! 👋
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Language: *Kotlin*
 * Algorithm: **Backtracking**
@@ -71,7 +76,7 @@ Welcome, nerd! 👋
 
 ---
 
-## 📦 Installation / Deployment
+## Installation / Deployment
 
 1. Go to the **Releases** section of this repository
 2. Download the latest version
@@ -79,7 +84,7 @@ Welcome, nerd! 👋
 
 ---
 
-## 💡 Project Purpose
+## Project Purpose
 
 This project is ideal for:
 
